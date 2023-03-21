@@ -1,0 +1,427 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    position: absolute;
+}
+
+.navbar {
+    width: 100%;
+    height: 110px;
+    border: 2px solid #fff;
+}
+
+.ul {
+    width: 327px;
+    height: 19px;
+    margin-top: 45px;
+    margin-left: 135px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ul a {
+    font-family: "jost";
+    text-decoration: none;
+    color: #333333;
+    font-weight: 400;
+}
+
+.ul a:hover {
+    text-decoration: underline;
+}
+
+.logo {
+    width: 130px;
+    height: 27.36px;
+    margin-top: -25px;
+    margin-left: 575px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input1 {
+    width: 288px;
+    height: 50px;
+    margin-left: 835px;
+    border: 2px solid #023047;
+    margin-top: -35px;
+    display: flex;
+}
+
+.input1 .i2 input {
+    height: 100%;
+    width: 233px;
+    border: 0px;
+}
+
+.input1 .i2 img {
+    width: 15px;
+    height: 8px;
+    position: absolute;
+    top: 53px;
+    left: 1050px;
+}
+
+.i1 {
+    width: 52px;
+    height: 48px;
+    background-color: #023047;
+    margin-top: -1px;
+}
+
+.yumaloq1 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid white;
+    margin-top: 8px;
+    margin-left: 15px;
+}
+
+.yumaloq2 {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    border: 1px solid white;
+    margin-top: 1px;
+    margin-left: 30px;
+}
+
+.icons .ri1 {
+    margin-left: 45px;
+    position: absolute;
+    margin-top: 13px;
+}
+
+.icons .v1 {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #023047;
+    position: absolute;
+    left: 1180px;
+    top: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.v1 p {
+    color: white;
+    font-size: 10px;
+}
+
+.icons .ri2 {
+    position: absolute;
+    right: 120px;
+    top: 45px;
+}
+
+.icons .ri3 {
+    position: absolute;
+    top: 45px;
+    right: 90px;
+}
+
+.box {
+    width: 100%;
+    height: 84.7%;
+    overflow: hidden;
+}
+
+.b1 {
+    width: 40px;
+    height: 40px;
+    border: 2px solid #023047;
+    position: absolute;
+    top: 355px;
+    left: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.b2 {
+    width: 40px;
+    height: 40px;
+    background-color: #023047;
+    position: absolute;
+    top: 355px;
+    right: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.b1 p {
+    font-size: 25px;
+    font-weight: 900;
+    color: #023047;
+}
+
+.b2 p {
+    font-size: 25px;
+    font-weight: 900;
+    color: white;
+}
+
+.box h4 {
+    position: absolute;
+    top: 250px;
+    left: 136px;
+}
+
+.box h1 {
+    font-family: "jost";
+    position: absolute;
+    top: 280px;
+    left: 136px;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.box h2 {
+    font-family: "jost";
+    position: absolute;
+    top: 340px;
+    left: 136px;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.boxspan {
+    width: 469px;
+    height: 34px;
+    position: absolute;
+    top: 422px;
+    left: 136px;
+}
+
+.boxspan span {
+    font-family: "JOST";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.box .shop {
+    width: 130px;
+    height: 50px;
+    background: #023047;
+    position: absolute;
+    left: 135px;
+    top: 488px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box .shop h3 {
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 17px;
+    color: white;
+}
+
+.box .shop:active {
+    transform: scale(0.98);
+}
+
+.oyoqtagidagi {
+    width: 90px;
+    height: 20px;
+    position: absolute;
+    bottom: 40px;
+    left: 680px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.oyoqtagidagi .yu1 {
+    width: 10px;
+    height: 10px;
+    border: 1px solid #000;
+    border-radius: 50%;
+}
+
+.oyoqtagidagi .yu2 {
+    width: 14px;
+    height: 14px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+
+.oyoqtagidagi .yu3 {
+    width: 10px;
+    height: 10px;
+    border: 1px solid #000;
+    border-radius: 50%;
+}
+
+.yu2 .yu4 {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #000;
+    position: absolute;
+    top: 6px;
+    left: 41px;
+}
+
+.tag {
+    width: 100%;
+    height: 650px;
+    background-color: #fff;
+    border: 2px solid #fff;
+    position: relative;
+    top: -6px;
+}
+
+.rasm1 {
+    width: 570px;
+    height: 450px;
+    margin-top: 100px;
+    margin-left: 135px;
+    background-color: #EEEEEE;
+    position: relative;
+}
+
+.rasm2 {
+    position: absolute;
+    width: 570px;
+    height: 210px;
+    top: 100px;
+    left: 735px;
+    background-color: #EEEEEE;
+}
+
+.rasm3 {
+    position: absolute;
+    width: 570px;
+    height: 210px;
+    top: 340px;
+    left: 735px;
+    background-color: #EEEEEE;
+}
+
+.rasm1 span {
+    position: absolute;
+    top: 195px;
+    left: 337px;
+    font-family: sans-serif;
+    color: #025050;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.rasm1 h1 {
+    position: absolute;
+    top: 225px;
+    left: 337px;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 35px;
+}
+
+.rasm1 button {
+    width: 130px;
+    height: 50px;
+    background-color: #fff;
+    color: #666666;
+    position: absolute;
+    top: 270px;
+    left: 337px;
+}
+
+.rasm1 button:active {
+    transform: scale(0.98);
+}
+
+.rasm2 button:active {
+    transform: scale(0.98);
+}
+.rasm3 button:active {
+    transform: scale(0.98);
+}
+
+.rasm2 span {
+    position: absolute;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #025050;
+    top: 60px;
+    left: 38px;
+}
+
+.rasm2 h1 {
+    position: absolute;
+    left: 38px;
+    top: 79px;
+    font-family: Jost;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 35px;
+}
+
+.rasm2 button {
+    width: 110px;
+    height: 45px;
+    position: absolute;
+    top: 119px;
+    left: 38px;
+    color: #666666;
+    background-color: #fff;
+}
+
+.rasm3 span {
+    position: absolute;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    top: 60px;
+    left: 325px;
+    color: #025050;
+}
+
+.rasm3 h1 {
+    font-family: Jost;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 35px;
+    position: absolute;
+    top: 79px;
+    left: 325px;
+}
+.rasm3 button{
+    width: 110px;
+    height: 45px;
+    color: #666666;
+    background-color: #fff;
+    position: absolute;
+    top: 119px;
+    left: 325px;
+}
